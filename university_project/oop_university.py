@@ -19,7 +19,7 @@ class university:
 		if ind == -1 :
 			self.students.append(student)
 		else:
-			print("this code exist !")
+			print("this code exist !!")
 	def add_employee(self,employee):
 		ind = self.find_index_employee(employee.employee_code)
 		if ind == -1 :
